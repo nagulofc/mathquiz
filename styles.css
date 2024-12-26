@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  input{
+    
+    border-radius: 25px;
+    box-shadow: 7px 7px 14px rgb(220, 220, 220);
+    border-style: solid;
+    border-color: #e6e6e6;
+  }
+  
+  .mode-toggle button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #e0e0e0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+    border-radius: 25px;
+    box-shadow: 7px 7px 10px rgb(220, 220, 220);
+  }
+  
+  .mode-toggle button.active {
+    background: #ff9705;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  #question {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  #answer {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  button#submit {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: #0004ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    
+    border-radius: 25px;
+    box-shadow: 7px 7px 10px rgb(220, 220, 220);
+  }
+  
+  #feedback {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  #score {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
